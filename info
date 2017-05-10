@@ -1,6 +1,9 @@
 --Adress
 https://meteor-jb28.c9users.io/
 
+--run meteor in c9
+meteor --port $IP:$PORT
+
 ---here i'am 
 https://www.meteor.com/tutorials/blaze/adding-user-accounts
 
@@ -8,3 +11,19 @@ https://www.meteor.com/tutorials/blaze/adding-user-accounts
 http://rogerdudler.github.io/git-guide/index.es.html
 https://git-scm.com/book/es/v1/Empezando-Configurando-Git-por-primera-vez
 https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+
+
+
+---git comands:
+git init
+git config --global user.name "JoseDanielJD" //configuracion de credenciales
+git config --global user.email jd24cm@gmail.com
+git remote add origin <server> //configurar la coneccion del repositorio local al repositorio remoto: github
+git remote add origin https://github.com/JoseDanielJD/MeteorApp.git //esta es la configuracion remota
+git add . //agrega a todos los archivos para estar pendiente de sus cambios
+git commit
+git commit -m "comentario"
+git push -f origin master //El primer error q me sale es  la hora de merge en el primer commit para ello le digo, q no mezcle
+git checkout master
+git add <filename>
