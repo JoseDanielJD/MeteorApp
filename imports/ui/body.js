@@ -15,7 +15,6 @@ Template.body.helpers({
     const instance = Template.instance();
     if (instance.state.get('hideCompleted')) {
       // If hide completed is checked, filter tasks
-      console.log("some task hide");
       return Tasks.find({ checked: { $ne: true } }, { sort: { createdAt: -1 } });
     }
     // Otherwise, return all of the tasks
