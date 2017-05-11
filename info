@@ -27,3 +27,13 @@ git commit -m "comentario"
 git push -f origin master //El primer error q me sale es  la hora de merge en el primer commit para ello le digo, q no mezcle
 git checkout master
 git add <filename>
+git checkout -b development  //cambiar a la rama development
+git checkout -f master 
+
+
+
+--instalacion laravel en c9:
+https://community.c9.io/t/getting-started-with-laravel/1608
+ojo:revisar comentarios del link de instalacion de laravel
+--instalacion de php 7 para poder ejecutar composer update o composer install
+https://community.c9.io/t/how-to-upgrade-a-php-workspace-to-version-7/8570/4
